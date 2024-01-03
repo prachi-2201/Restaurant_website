@@ -355,6 +355,87 @@ font-family: "Playfair Display";
     height: 20vh;
     justify-content: center;
 }
+.wd-500{
+    width: 500px;
+}
+.story{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+    text-align: left;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.al-left{
+    text-align: left;
+}
+.mg-0{
+    margin: 0;
+}
+.al-center{
+    text-align: center;
+}
+.mar-30{
+    margin-top: 30px;
+}
+
+.color{
+    color: #6bb99c;
+}
+
+.cook{
+    border-radius: 78px;
+    background-color: #faf8ef;
+    margin: 60px;
+}
+
+.feed,.image{
+    max-width: 250px;
+   
+}
+
+.item-center{
+    align-items: center;
+}
+.nam{
+    justify-content: space-between;
+    align-items: center;
+}
+.fname{
+    font-size: 29px;
+color: #12202f;
+font-weight: 900;
+font-family: "Playfair Display";
+}
+
+.text{
+
+font-size: 14px;
+line-height: 25px;
+color: #12202f;
+font-weight: 600;
+font-family: "Montserrat";
+}
+.date{
+    font-size: 14px;
+line-height: 22px;
+color: #ccc1a3;
+font-weight: 700;
+font-family: "Montserrat";
+text-align: center;
+}
+.wd-550{
+    width: 550px;
+
+}
+.jus-center{
+    justify-content: space-evenly;
+}
+.nam,.text,.rating{
+    padding: 5px;
+}
 
 
 
