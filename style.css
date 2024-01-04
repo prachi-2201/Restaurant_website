@@ -229,7 +229,8 @@ input[type="submit"] {
 .category {
     margin-top: 150px;
 }
-.cat_image{
+
+.cat_image {
     padding-top: 20px;
 }
 
@@ -261,10 +262,10 @@ input[type="submit"] {
     margin: 10px;
     padding: 10px;
     width: 382px;
-border-radius: 40px;
-filter: drop-shadow(-5.557px 5.755px 0px rgba(150,137,104,0.09));
-background-color: #faf8ef;
-border: 1px solid #ffffff;
+    border-radius: 40px;
+    filter: drop-shadow(-5.557px 5.755px 0px rgba(150, 137, 104, 0.09));
+    background-color: #faf8ef;
+    border: 1px solid #ffffff;
 
 }
 
@@ -286,11 +287,11 @@ border: 1px solid #ffffff;
     font-weight: 600;
     font-family: "Montserrat";
     text-align: center;
-    
+
 }
 
 .catbutton {
-    
+
     padding: 10px;
     width: 194px;
     border-radius: 28px;
@@ -304,7 +305,8 @@ border: 1px solid #ffffff;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-.top_cov{
+
+.top_cov {
     padding-left: 200px;
     padding-right: 200px;
     overflow: hidden;
@@ -312,129 +314,192 @@ border: 1px solid #ffffff;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.cov_subtitle,.cov_title{
+
+.cov_subtitle,
+.cov_title {
     text-align: center;
 }
-.cov_subtitle{
+
+.cov_subtitle {
     font-size: 29px;
-line-height: 40px;
-color: #6bb99c;
-font-weight: 400;
-font-family: "Montserrat";
+    line-height: 40px;
+    color: #6bb99c;
+    font-weight: 400;
+    font-family: "Montserrat";
 }
 
-.cov_title{
+.cov_title {
     font-size: 50px;
-color: #12202f;
-font-weight: 900;
-font-family: "Playfair Display";
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
 }
-.bg-col{
+
+.bg-col {
     background-color: #6bb99c;
     text-align: center;
 }
-.table1{
+
+.table1 {
     top: 0;
     left: -130px;
 }
 
-.table2{
+.table2 {
     top: 0;
     right: -130px;
 }
-.bot_cov{
+
+.bot_cov {
     margin-bottom: 230px;
     justify-content: space-between;
 }
-.illustration{
+
+.illustration {
     text-align: center;
 }
-.ill{
+
+.ill {
     display: flex;
     width: 100%;
     height: 20vh;
     justify-content: center;
 }
-.wd-500{
+
+.wd-500 {
     width: 500px;
 }
-.story{
+
+.story {
     padding-top: 60px;
     padding-bottom: 30px;
     justify-content: space-around;
     text-align: left;
 }
-.img{
+
+.img {
     width: 100%;
     height: 100%;
 }
-.al-left{
+
+.al-left {
     text-align: left;
 }
-.mg-0{
+
+.mg-0 {
     margin: 0;
 }
-.al-center{
+
+.al-center {
     text-align: center;
 }
-.mar-30{
+
+.mar-30 {
     margin-top: 30px;
 }
 
-.color{
+.color {
     color: #6bb99c;
 }
 
-.cook{
+.cook {
     border-radius: 78px;
     background-color: #faf8ef;
     margin: 60px;
 }
 
-.feed,.image{
+.feed,
+.image {
     max-width: 250px;
-   
+
 }
 
-.item-center{
+.item-center {
     align-items: center;
 }
-.nam{
+
+.nam {
     justify-content: space-between;
     align-items: center;
 }
-.fname{
+
+.fname {
     font-size: 29px;
-color: #12202f;
-font-weight: 900;
-font-family: "Playfair Display";
+    color: #12202f;
+    font-weight: 900;
+    font-family: "Playfair Display";
 }
 
-.text{
+.text {
 
-font-size: 14px;
-line-height: 25px;
-color: #12202f;
-font-weight: 600;
-font-family: "Montserrat";
-}
-.date{
     font-size: 14px;
-line-height: 22px;
-color: #ccc1a3;
-font-weight: 700;
-font-family: "Montserrat";
-text-align: center;
+    line-height: 25px;
+    color: #12202f;
+    font-weight: 600;
+    font-family: "Montserrat";
 }
-.wd-550{
+
+.date {
+    font-size: 14px;
+    line-height: 22px;
+    color: #ccc1a3;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+.wd-550 {
     width: 550px;
 
 }
-.jus-center{
+
+.jus-center {
     justify-content: space-evenly;
 }
-.nam,.text,.rating{
+
+.nam,
+.text,
+.rating {
     padding: 5px;
+}
+
+.subscribe {
+    margin-top: 60px;
+}
+
+.form input,
+.form textarea {
+    display: block;
+    margin: 0 auto;
+    padding: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 50vw;
+    border-radius: 43px;
+    background-color: #ccc1a3;
+    border: 2px solid #faf8ef;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    font-size: 17px;
+    letter-spacing: 3px;
+    color: #393939;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+.snd {
+    font-size: 21px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    font-weight: 700;
+    font-family: "Montserrat";
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px;
+    width: 235px;
+    border: 2px solid #faf8ef;
 }
 
 
